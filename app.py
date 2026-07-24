@@ -182,7 +182,7 @@ st.set_page_config(page_title="Careem Pulse", page_icon="⚡", layout="wide")
 st.markdown(
     """
 <style>
-.block-container {padding-top: 2rem; padding-bottom: 3rem;}
+.block-container {padding-top: 4rem; padding-bottom: 3rem;}
 [data-testid="stMetricValue"] {font-size: 2rem;}
 .small-note {color: #6b7280; font-size: 0.9rem;}
 </style>
@@ -190,61 +190,21 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.caption("RISK RADAR · CAREEM HIRING CHALLENGE")
+
+st.title("⚡ Careem Pulse")
+st.subheader("AI Risk Radar for Cross-Vertical Launches")
+
 st.markdown(
-    """
-    <div style="
-        padding: 8px 0 24px 0;
-    ">
-        <div style="
-            display: inline-block;
-            padding: 5px 10px;
-            border: 1px solid #263139;
-            border-radius: 999px;
-            color: #AAB4BC;
-            font-size: 12px;
-            margin-bottom: 14px;
-        ">
-            RISK RADAR · CAREEM HIRING CHALLENGE
-        </div>
-
-        <div style="
-            font-size: 42px;
-            line-height: 1.05;
-            font-weight: 750;
-            letter-spacing: -1.5px;
-            margin-bottom: 10px;
-        ">
-            ⚡ Careem Pulse
-        </div>
-
-        <div style="
-            font-size: 21px;
-            color: #F4F6F8;
-            margin-bottom: 7px;
-        ">
-            AI Risk Radar for Cross-Vertical Launches
-        </div>
-
-        <div style="
-            font-size: 17px;
-            color: #00E784;
-            font-weight: 600;
-            margin-bottom: 18px;
-        ">
-            Spot the ripple before it reaches the customer.
-        </div>
-
-        <div style="
-            color: #8E9AA3;
-            font-size: 13px;
-        ">
-            Demo scenario: Ramadan Peak Readiness · UAE + KSA
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-            Fictional hiring-exercise data only
-        </div>
-    </div>
-    """,
+    '<span style="color:#00E784;font-size:17px;font-weight:600;">'
+    'Spot the ripple before it reaches the customer.'
+    '</span>',
     unsafe_allow_html=True,
+)
+
+st.caption(
+    "Demo scenario: Ramadan Peak Readiness · UAE + KSA · "
+    "Fictional hiring-exercise data only"
 )
 
 with st.sidebar:
