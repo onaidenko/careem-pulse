@@ -1,0 +1,13 @@
+timestamp,market,team,service,source,update
+2026-02-11 09:00,UAE,Payments,Pay,Standup,"Payment certification completed successfully and the production release is approved."
+2026-02-11 09:15,UAE,Growth,Food,Slack,"Cashback campaign was moved to Friday and is now aligned with the completed payment certification."
+2026-02-11 09:30,UAE,Customer Care,Platform,Standup,"Arabic support macros are approved and published for agents."
+2026-02-11 09:45,UAE,Operations,Rides,Forecast,"Captain supply forecast is now within target for the 17:30 to 19:30 peak window."
+2026-02-11 10:00,UAE,Marketplace,Rides,Slack,"Targeted captain incentive budget has been approved and activation is scheduled before peak demand."
+2026-02-11 10:15,UAE,Quik Operations,Quik,Standup,"Inventory feeds for both fulfilment centres are synchronized and operating normally."
+2026-02-11 10:30,UAE,Mobile,Super App,Release report,"Android crash-free rate is above the launch threshold and rollout has safely increased to 80%."
+2026-02-11 10:45,UAE,Marketing,Super App,Campaign plan,"Customer push notifications were rescheduled to match the updated launch plan."
+2026-02-11 11:00,KSA,Legal,Food,Email,"Saudi promotion terms received final legal approval."
+2026-02-11 11:15,KSA,Payments,Pay,Standup,"KSA payment fallback passed production-readiness validation."
+2026-02-11 11:30,KSA,Customer Care,Platform,Standup,"KSA campaign FAQ and escalation guidance are approved and distributed."
+2026-02-11 11:45,UAE,Data Platform,Platform,Standup,"Dashboard schema migration completed and launch monitoring dashboards are updating normally."
